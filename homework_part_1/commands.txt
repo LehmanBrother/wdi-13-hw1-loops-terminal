@@ -1,0 +1,62 @@
+1. Chriss-MacBook-Pro:homework_part_1 chrislehman$ mkdir death_star
+Chriss-MacBook-Pro:homework_part_1 chrislehman$ cd death_star/
+Chriss-MacBook-Pro:death_star chrislehman$ touch darth_vader.txt princess_leia.txt storm_trooper.txt
+
+2. Chriss-MacBook-Pro:death_star chrislehman$ cd ..
+Chriss-MacBook-Pro:homework_part_1 chrislehman$ mkdir galaxy_far_far_away
+Chriss-MacBook-Pro:homework_part_1 chrislehman$ cd galaxy_far_far_away/
+Chriss-MacBook-Pro:galaxy_far_far_away chrislehman$ mkdir tatooine
+Chriss-MacBook-Pro:galaxy_far_far_away chrislehman$ cd tatooine/
+Chriss-MacBook-Pro:tatooine chrislehman$ touch luke.txt ben_kenobi.txt
+
+3. Chriss-MacBook-Pro:tatooine chrislehman$ mkdir millenium_falcon
+Chriss-MacBook-Pro:tatooine chrislehman$ cd millenium_falcon/
+Chriss-MacBook-Pro:millenium_falcon chrislehman$ touch han_solo.txt chewbaca.txt
+
+4. Chriss-MacBook-Pro:millenium_falcon chrislehman$ mv ../ben_kenobi.txt ../obi_wan.txt
+
+5. Chriss-MacBook-Pro:homework_part_1 chrislehman$ cp death_star/storm_trooper.txt galaxy_far_far_away/tatooine/
+
+6. Chriss-MacBook-Pro:tatooine chrislehman$ mv luke.txt millenium_falcon/
+Chriss-MacBook-Pro:tatooine chrislehman$ mv obi_wan.txt millenium_falcon/
+
+7. Chriss-MacBook-Pro:tatooine chrislehman$ mv millenium_falcon/ ..
+
+8. Chriss-MacBook-Pro:galaxy_far_far_away chrislehman$ mv millenium_falcon/ ../death_star/
+
+9. Chriss-MacBook-Pro:death_star chrislehman$ mv princess_leia.txt millenium_falcon/
+
+10. Chriss-MacBook-Pro:death_star chrislehman$ rm millenium_falcon/obi_wan.txt 
+
+11. Chriss-MacBook-Pro:galaxy_far_far_away chrislehman$ mkdir yavin_4
+
+12. Chriss-MacBook-Pro:galaxy_far_far_away chrislehman$ mv ../death_star/millenium_falcon/ yavin_4/
+
+13. Chriss-MacBook-Pro:yavin_4 chrislehman$ mkdir x_wing
+
+14. Chriss-MacBook-Pro:yavin_4 chrislehman$ mv millenium_falcon/princess_leia.txt .
+Chriss-MacBook-Pro:yavin_4 chrislehman$ mv millenium_falcon/luke.txt x_wing/
+
+15. Chriss-MacBook-Pro:yavin_4 chrislehman$ mv millenium_falcon/ ..
+Chriss-MacBook-Pro:yavin_4 chrislehman$ mv x_wing/ ..
+
+16. Chriss-MacBook-Pro:death_star chrislehman$ mkdir tie_fighter_1 tie_fighter_2 tie_fighter_3
+
+17. Chriss-MacBook-Pro:death_star chrislehman$ mv darth_vader.txt tie_fighter_1
+
+18. Chriss-MacBook-Pro:death_star chrislehman$ cp storm_trooper.txt tie_fighter_2
+Chriss-MacBook-Pro:death_star chrislehman$ cp storm_trooper.txt tie_fighter_3
+
+19. Chriss-MacBook-Pro:death_star chrislehman$ mv tie_fighter_1 ../galaxy_far_far_away/
+Chriss-MacBook-Pro:death_star chrislehman$ mv tie_fighter_2 ../galaxy_far_far_away/
+Chriss-MacBook-Pro:death_star chrislehman$ mv tie_fighter_3 ../galaxy_far_far_away/
+
+20. Chriss-MacBook-Pro:galaxy_far_far_away chrislehman$ rm -r tie_fighter_2
+Chriss-MacBook-Pro:galaxy_far_far_away chrislehman$ rm -r tie_fighter_3
+
+21. Chriss-MacBook-Pro:galaxy_far_far_away chrislehman$ touch x_wing/the_force.txt
+
+22. Chriss-MacBook-Pro:galaxy_far_far_away chrislehman$ rm -r ../death_star/
+
+23. Chriss-MacBook-Pro:galaxy_far_far_away chrislehman$ mv x_wing/ yavin_4/
+Chriss-MacBook-Pro:galaxy_far_far_away chrislehman$ mv millenium_falcon/ yavin_4/
