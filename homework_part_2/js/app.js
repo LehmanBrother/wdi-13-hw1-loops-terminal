@@ -3,19 +3,21 @@
 //of another using the "+" operator; interpolation requires
 //the evaluation of a variable into its corresponding value
 //Concat example: "Hello " + "World"
-//Interp example: const x = "Hello "
-//console.log(`${x} World`)
+//Interp example: var x = "Hello "; var y = "World"
+//console.log(xy)
 
 //2. DRY stands for Don't Repeat Yourself; it allows for more
 //efficient coding. Tools such as switch and loops help us
 //write DRY code
 
-//3. Declaring a variable creates the variable; assigning a value
-//simply sets its value. Defining a variable consists of declaring
-//it and assigning its value simultaneously.
+//3. Declaring a variable creates the variable (and sometimes
+//stores a value), whereas assigning a value simply sets its
+//value. Defining a variable consists of changing its value
+//from undefined to an actual value.
 
 //4. Use const when you don't want a variable to be updated;
-//use let when you do
+//use let when you do (we never learned this and I don't really
+//understand it)
 
 //5. A parent directory is a directory that contains
 //sub- or children directories
